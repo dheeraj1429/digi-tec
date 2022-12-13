@@ -1,10 +1,72 @@
-/* card section */
+.bannerSection {
+   position: relative;
+   background-color: #eef3fe;
+}
+.bannerSection .banner_arrow_image {
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+.bannerSection .headingContent {
+   position: relative;
+}
+.bannerSection .banner_arrow_image img {
+   width: 300px;
+   height: 100%;
+   rotate: -180deg;
+}
+.bannerHeading {
+   font-family: "Sora-Regular";
+}
+.card_section .active_cart {
+   background: rgba(255, 255, 255, 0.33);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(4.8px);
+   border-radius: 14px 0 0 14px;
+   -webkit-backdrop-filter: blur(4.8px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.card_section .cart-div {
+   background: transparent;
+   border-radius: 14px 0 0 14px;
+   border: 1px solid transparent;
+}
+
 .card_section .cart-div:hover {
-      background-color: var(--hover-gray);
-      transition: all .3s ease;
+   background: rgba(255, 255, 255, 0.33);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(4.8px);
+   border-radius: 14px 0 0 14px;
+   -webkit-backdrop-filter: blur(4.8px);
+   border: 1px solid rgba(255, 255, 255, 0.95);
+   transition: all 0.3s ease;
+   margin-right: -25px;
 }
 .card_section .cart-div img {
-      width: 30px;
-      height: 100%;
+   width: 30px;
+   height: 100%;
 }
-/* card section */
+.lignHightHeading {
+   line-height: 38px;
+}
+.show_project_half_div {
+   width: 100%;
+   height: 700px;
+   background-image: url("../images/s3.png");
+   background-position: left;
+   background-size: cover;
+   border-radius: 10px 0 0px 10px;
+}
+.projectShowDiv {
+   background-image: url(https://salient.tailwindui.com/_next/static/media/background-features.5f7a9ac9.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.show_case_div {
+   width: 100%;
+}
+.image_prev_cards {
+   width: 100%;
+   height: 400px;
+   border: 1px solid red;
+}
