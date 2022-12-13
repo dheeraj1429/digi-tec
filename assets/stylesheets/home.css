@@ -1,0 +1,10 @@
+/* card section */
+.card_section .cart-div:hover {
+      background-color: var(--hover-gray);
+      transition: all .3s ease;
+}
+.card_section .cart-div img {
+      width: 30px;
+      height: 100%;
+}
+/* card section */

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+      --main-cl: #FFF;
+      --dark-cl: #000;
+      --smooth-gray: #1d1d1d;
+      --hover-gray: #1b1a1a6f;
+}
+
+html, body {
+      font-family: 'Inter', sans-serif;
+}
+
+.side_padding {
+      padding: 0 60px;
+}
+.side_padding_one {
+      padding: 0 100px;
+}
+.side_padding_two {
+      padding: 0 150px;
+}
